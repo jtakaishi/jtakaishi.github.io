@@ -409,6 +409,6 @@ a:after {
     background: #ff7878;
 }
 
-#btn:hover {
+.btn:hover {
   opacity: 0.8;
 }
