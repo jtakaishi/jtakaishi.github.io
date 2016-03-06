@@ -1,18 +1,105 @@
-<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/pic.png">
+
+    <title>SheepLab</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SheepLab</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="works.html">WORKS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End of Fixed navbar -->
+
+    <!-- headerwrap -->
+    <div id="blue">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h4>WELCOME TO SheepLab</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of headerwrap -->
+
+    <!-- PORTFOLIO SECTION -->
+    <div id="dg">
+      <div class="container">
+        <div class="row centered">
+          <h4>LATEST WORKS</h4>
+
+          <!-- Latest work 1 -->
+          <br>
+          <div class="col-lg-4">
+            <div id="btn">
+              <a href="./works.html"><img src="assets/img/p01.png" alt=""></a>
+            </div>
+            <h4>メッセージボード</h4>
+          </div>
+
+          <!-- Latest work 2 -->
+          <div class="col-lg-4">
+            <div id="btn">
+              <a href="./works.html"><img src="assets/img/p03.png" alt=""></a>
+            </div>
+            <h4>Twitterクローン</h4>
+          </div>
+
+          <!-- Latest work 3 -->
+          <div class="col-lg-4">
+            <div id="btn">
+              <a href="./works.html"><img src="assets/img/p02.png" alt=""></a>
+            </div>
+            <h4>モノリスト</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of PORTFOLIO SECTION -->
+
+    <!-- FOOTER -->
+    <div id="f"></div>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
   </body>
 </html>
